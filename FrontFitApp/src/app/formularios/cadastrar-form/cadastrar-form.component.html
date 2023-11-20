@@ -1,0 +1,9 @@
+<form [formGroup]="registrarForm" (ngSubmit)="submit()">
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" formControlName="email" required>
+
+  <label for="senha">Senha:</label>
+  <input type="password" id="senha" formControlName="senha" required>
+
+  <button type="submit">Entrar</button>
+</form>

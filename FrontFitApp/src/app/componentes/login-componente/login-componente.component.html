@@ -1,0 +1,12 @@
+<form [formGroup]="loginForm" (ngSubmit)="submit()" #formDit="ngForm">
+
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" formControlName="email">
+
+  <label for="senha">Senha:</label>
+  <input type="password" id="senha" formControlName="senha">
+
+
+  <button type="submit">Enviar</button>
+</form>
